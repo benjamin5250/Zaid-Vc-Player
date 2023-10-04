@@ -27,7 +27,7 @@
         "value": "",
         "required": true
       },
-      "MONGO_DB_URI": {
+      "ASSISTANT_NAM": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
         "value": "",
         "required": true
@@ -42,12 +42,12 @@
         "value": "",
         "required": true
       },
-      "HEROKU_API_KEY": {
+      "DURATION_LIMIT": {
         "description": "Your Heroku account's API key",
         "value": "",
         "required": false
       },
-      "HEROKU_APP_NAME": {
+      "BOT_USERNAME": {
         "description": "Your heroku app name",
         "value": "",
         "required": false
@@ -58,6 +58,13 @@
         "required": true
       }
     },
+     "GROUP_SUPPORT": {
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "value": "",
+        "required": true
+      }
+    },
+
     "buildpacks": [
           {
               "url": "heroku/python"
